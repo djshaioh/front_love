@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+/* Body styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Main container */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 40px;
+}
+
+/* Gallery container */
+.posi-gallery,
+.pori-gallery {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Gallery content container */
+.posi-content-container,
+.pori-content-container {
+  padding: 20px;
+}
+
+/* Gallery title */
+h1 {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Album container */
+.posi-album,
+.pori-album {
+  display: flex;
+  overflow: hidden;
+}
+
+/* Album images */
+.posi-images,
+.pori-images {
+  display: flex;
+}
+
+img {
+  width: 600px;
+  height: 600px;
+  /* border-radius: 15px; */
+}
+
+/* Navigation buttons */
+button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.posi-prev,
+.pori-prev {
+  background-color: #4caf50;
+  margin-top: 5px;
+}
+
+.posi-next,
+.pori-next {
+  background-color: #ff5722;
+  margin-top: 5px;
+}
+
+/* Info container */
+.posi-info,
+.pori-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Info details */
+.posi-details,
+.pori-details {
+  margin-top: 20px;
+}
+
+.posi-details dt,
+.pori-details dt {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.posi-details dd,
+.pori-details dd {
+  margin-left: 0;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* Back button */
+.back {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#backButton {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4caf50;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+}
